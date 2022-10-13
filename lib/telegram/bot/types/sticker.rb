@@ -14,7 +14,7 @@ module Telegram
         attribute :thumb, PhotoSize
         attribute :emoji, String
         attribute :set_name, String
-        attribute :premium_animation, File
+        attribute :premium_animation, Animation
         attribute :mask_position, MaskPosition
         attribute :custom_emoji_id, String
         attribute :file_size, Integer
